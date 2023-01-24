@@ -22,4 +22,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ github.repository }}:latest
+          tags: ${GITHUB_REPOSITORY,,}:latest
