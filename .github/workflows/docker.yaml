@@ -25,6 +25,7 @@ jobs:
         with:
           push: true
           tags: mindtooth/buildx-action-test:10
+          provenance: false
   buildx_9:
     runs-on: ubuntu-latest
     steps:
