@@ -34,6 +34,9 @@ jobs:
         with:
           images: |
             ghcr.io/${{ github.repository }}
+          labels: |
+            org.opencontainers.image.documentation=https://www.keycloak.org/documentation
+            org.opencontainers.image.source=https://github.com/keycloak/keycloak
 
       - name: Build and push
         uses: docker/build-push-action@v3
