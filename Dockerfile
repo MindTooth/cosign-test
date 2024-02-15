@@ -1,3 +1,3 @@
-FROM alpine
+FROM cgr.dev/chainguard/wolfi-base
 
-RUN apk add curl vim python3
+RUN apk upgrade -a -l --prune && apk add --no-cache curl python3 vim
