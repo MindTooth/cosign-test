@@ -1,3 +1,3 @@
-FROM cgr.dev/chainguard/wolfi-base@sha256:28f57f6a9fb2478f3a3dd160794831bd0099ec92d0d7b81cd203fae67bcb5339
+FROM cgr.dev/chainguard/wolfi-base@sha256:0c1bf69476e3ca3d4763ca3067773e8796a1faecd56678a3b748cd90cfb9b9a5
 
 RUN apk upgrade --no-cache && apk add --no-cache curl python3 vim
